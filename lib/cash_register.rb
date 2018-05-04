@@ -29,7 +29,7 @@ attr_accessor :total, :discount, :items, :transaction_total
     else
       @discount = @discount / 100
       @total -= @total * @discount
-      @total
+
       "After the discount, the total comes to $#{@total.to_i}."
     end
   end
